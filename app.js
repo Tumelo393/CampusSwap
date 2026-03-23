@@ -902,10 +902,11 @@ function triggerVerification() {
   // In production: integrate EmailJS (https://www.emailjs.com)
   // Replace SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY with your credentials.
   //
-  // emailjs.send('SERVICE_ID', 'TEMPLATE_ID', {
-  //   to_email:   email,
-  //   to_name:    firstName,
-  //   code:       pendingTokenCode,
+//emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+  //to_email:   email,
+  //to_name:    firstName,
+  //code:       pendingTokenCode,
+  //});
   // }, 'PUBLIC_KEY');
   //
   // For this demo, the code is logged to the console so you can test:
